@@ -8,6 +8,7 @@ class Mct < Formula
   depends_on "python@3.12"
 
   def install
+    system "python3", "-m", "pip", "install", "hatchling"
     system "python3", "-m", "pip", "install", *std_pip_args, "."
   end
 
