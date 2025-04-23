@@ -1,4 +1,6 @@
 class Mct < Formula
+  include Language::Python::Virtualenv
+
   desc "macOS Configuration Tools"
   homepage "https://github.com/ocolunga/mct"
   url "https://github.com/ocolunga/mct/archive/v0.1.0.tar.gz"
