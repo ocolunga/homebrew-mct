@@ -5,7 +5,7 @@ class Mct < Formula
   sha256 "f716c4ae692755ca896a38edb9b5a1c21e6857d6bcf83818544c5f9056096fa3"
   license "MIT"
 
-  depends_on "python@3.8"
+  depends_on "python@3.12"
 
   def install
     system "python3", "-m", "pip", "install", *std_pip_args, "."
