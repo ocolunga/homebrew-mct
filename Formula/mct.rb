@@ -4,7 +4,7 @@ class Mct < Formula
   desc "macOS Configuration Tools"
   homepage "https://github.com/ocolunga/mct"
   url "https://github.com/ocolunga/mct/archive/v0.1.1.tar.gz"
-  sha256 "9b8fd08fb983aae29565afe315730c4eec1dd51452326b0a20c24fdeed6926ac"
+  sha256 "5f2edf200973fccc6a1790c62e92c2176aeceb964171740600df27ece0efb9f7"
   license "MIT"
 
   depends_on "python@3.12"
