@@ -3,7 +3,7 @@ class Mct < Formula
 
   desc "macOS Configuration Tools"
   homepage "https://github.com/ocolunga/mct"
-  url "https://github.com/ocolunga/mct/archive/refs/tags/v0.1.1.tar.gz"
+  url "https://github.com/ocolunga/mct/releases/download/v0.1.1/mct-0.1.1.tar.gz"
   sha256 "74fa44f83ab01f5a59cb5bb11341abafd980b068e146b48e36023a6b386d4ce5"
   license "MIT"
 
